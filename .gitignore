@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+
+# NEVER upload personal genomic data
+*.csv
+*.txt
+MyHeritage_raw_dna_Y/
+genome_*
+
+# Large database cache (users can build it with convert_isogg.py)
+isogg.2016.01.04.txt
+isogg_ysnp_db.json
